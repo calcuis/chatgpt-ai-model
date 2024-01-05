@@ -1,4 +1,4 @@
-### chatGPT
+### chatGPT (a version with simple GUI)
 
 This Python code is a simple graphical user interface (GUI) application that uses the Llama API to interact with a chat model for generating responses. Here's a breakdown of the code:
 
