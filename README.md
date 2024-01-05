@@ -1,6 +1,10 @@
 ### chatGPT
 
 *** **run chatGPT locally (offline) - with basic GUI**
+```
+python chat.py
+```
+[<img src="https://raw.githubusercontent.com/calcuis/chatgpt-ai-model/master/demo.png" width="350" height="300">](https://github.com/calcuis/chatgpt-ai-model/blob/main/demo.png)
 
 This Python code is a simple graphical user interface (GUI) application that uses the Llama to interact with a chat model for generating responses. Here's a breakdown of the code:
 
