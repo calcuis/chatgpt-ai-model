@@ -67,3 +67,7 @@ The Entry widget (i) and the Submit button (btn) are placed in the second row, w
 The scrolled text widget (o) spans across both columns and is placed in the first row.
 
 When the user enters a question and clicks the "Submit" button, the input is sent to the Llama model, and the generated response is displayed in the scrolled text widget.
+
+**Reference**
+
+github.com/calcuis/chatgpt-command-line-version
