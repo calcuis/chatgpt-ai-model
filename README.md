@@ -16,7 +16,7 @@ Creating Llama Instance:
 ```
 llm = Llama(model_path="chat.gguf")
 ```
-An instance of the Llama class is created with the specified model path ("chat.gguf"); get the sample pre-trained model file from new releases.
+An instance of the Llama class is created with the specified model path ("chat.gguf"); get the sample pre-trained model file from releases (0.1).
 
 
 Setting up the GUI:
