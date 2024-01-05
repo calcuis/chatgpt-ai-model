@@ -1,6 +1,8 @@
 ### chatGPT
 
-This Python code is a simple graphical user interface (GUI) application that uses the Llama API to interact with a chat model for generating responses. Here's a breakdown of the code:
+*** **run chatGPT locally (offline) - with basic GUI**
+
+This Python code is a simple graphical user interface (GUI) application that uses the Llama to interact with a chat model for generating responses. Here's a breakdown of the code:
 
 Importing Modules:
 ```
