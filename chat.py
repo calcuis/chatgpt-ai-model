@@ -16,6 +16,7 @@ def submit(i):
     answer = output['choices'][0]['text']
     print(answer)
     o.insert(INSERT, answer+"\n\n")
+    i.delete(0, END)
 
 btn = Button(text = "Submit", command = lambda: submit(i))
 i.grid(row=1, column=0, sticky="nsew")
