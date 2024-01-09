@@ -51,10 +51,12 @@ def submit(i):
     answer = output['choices'][0]['text']
     print(answer)
     o.insert(INSERT, answer+"\n\n")
+    i.delete(0, END)
 ```
 The submit function is defined to handle the button click event.
 It retrieves user input from the Entry widget (i), sends it to the Llama model, and retrieves the generated response.
 The response is printed to the console and inserted into the scrolled text widget (o).
+Clear the widget (i) after submission.
 
 Create Submit Button:
 ```
