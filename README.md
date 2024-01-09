@@ -78,4 +78,4 @@ When the user enters a question and clicks the "Submit" button, the input is sen
 
 **Reference**
 
-github.com/calcuis/chatgpt-command-line-version
+github.com/calcuis/chatgpt-command-line-interface
