@@ -12,11 +12,13 @@ i = Entry()
 o = st.ScrolledText()
 
 def submit(i):
+    root.title("Processing...")
     output = llm("Q: "+str(i.get()), max_tokens=1024, echo=True)
     answer = output['choices'][0]['text']
     print(answer)
     o.insert(INSERT, answer+"\n\n")
     i.delete(0, END)
+    root.title("chatGPT")
 
 btn = Button(text = "Submit", command = lambda: submit(i))
 i.grid(row=1, column=0, sticky="nsew")
