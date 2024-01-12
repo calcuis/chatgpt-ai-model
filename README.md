@@ -1,9 +1,4 @@
 ### chatGPT
-
-install the llama-cpp-python library via pip or pip3 (once only)
-```
-pip install llama-cpp-python 
-```
 *** **run chatGPT locally (offline) - with basic GUI**
 ```
 python chat.py
@@ -14,6 +9,10 @@ python chat.py
 
 This Python code is a simple graphical user interface (GUI) application that uses the Llama to interact with a chat model for generating responses. Here's a breakdown of the code:
 
+*install the llama-cpp-python library via pip or pip3 (once only)
+```
+pip install llama-cpp-python 
+```
 Importing Modules:
 ```
 from llama_cpp import Llama
