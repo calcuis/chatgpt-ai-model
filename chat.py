@@ -6,8 +6,6 @@ import tkinter.scrolledtext as st
 
 root = Tk()
 root.title("chatGPT")
-icon = PhotoImage(file = "logo.png")
-root.iconphoto(False, icon)
 
 if os.path.isfile(ModelPath) and os.access(ModelPath,os.R_OK):
     print("Model file exists and is readable.")
