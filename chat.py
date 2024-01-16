@@ -15,7 +15,6 @@ if os.path.isfile(ModelPath) and os.access(ModelPath,os.R_OK):
     root.columnconfigure([0, 1, 2], minsize=150)
     root.rowconfigure(0, weight=2)
     root.rowconfigure(1, weight=1)
-
     i = Entry()
     o = st.ScrolledText()
 
