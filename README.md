@@ -81,7 +81,7 @@ The scrolled text widget (o) spans across both columns and is placed in the firs
 
 When the user enters a question and clicks the "Submit" button, the input is sent to the Llama model, and the generated response is displayed in the scrolled text widget.
 
-**Reference**
+**References**
 
 github.com/calcuis/llama-cpp-python-gradio-server
 
