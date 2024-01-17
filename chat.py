@@ -32,7 +32,7 @@ if os.path.isfile(ModelPath) and os.access(ModelPath,os.R_OK):
     btn.grid(row=1, column=2, sticky="nsew")
     o.grid(row=0, columnspan=3, sticky="nsew")
 else:
-    print("Either model file (chat.gguf) is missing or is not readable.")
+    print("Please pull the model file (chat.gguf) into the same directory of this application.")
     e = Label(text="\n Either model file (chat.gguf) is missing or is not readable! \n")
     e.pack()
 
