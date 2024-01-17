@@ -83,4 +83,6 @@ When the user enters a question and clicks the "Submit" button, the input is sen
 
 **Reference**
 
+github.com/calcuis/llama-cpp-python-gradio-server
+
 github.com/calcuis/chatgpt-command-line-interface
